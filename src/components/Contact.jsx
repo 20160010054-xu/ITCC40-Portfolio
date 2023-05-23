@@ -6,8 +6,8 @@ function Contact() {
     <div className="Contacts">
         <hr />
         <h3>Contact Me</h3>
-        <p>(icon) 20160010054@gmail.com</p>
-        <p>(icon) 09952061437</p>
+        <p>20160010054@gmail.com</p>
+        <p>09952061437</p>
     </div>
  );
 }
