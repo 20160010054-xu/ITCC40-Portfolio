@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-color: #EDEDE9;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navbar{
+    background-color: #D5BDAF;
+    width: 90vw;
+    border-radius: 10px;
+}
+.navbar .nav-button{
+    margin: 3vw;
+    color: #493326;
+    font-weight: bold;
+}
+
+.App .Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3D5CA;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90vw;
+    color: #FFFF;
+}
+.App .Home .name{
+    max-width: 35%;
+    min-width: 25%;
+    margin: 5vw;
+    margin-right: 100px;
+}
+.App .Home .imgContainer{
+    display: flex;
+    width: 40vw;
+    min-width: 350px;
+    max-width: 450px;
+    aspect-ratio: 1;
+    margin: auto;
+    background-color: #D6CCC2;
+    border-radius: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.App .Home .imgContainer .image{
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+
+.App .AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3D5CA;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90vw;
+    color: #FFFF;
+
+}
+
+.App .Work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3D5CA;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90vw;
+    color: #FFFF;
+
+}
+
+
+
+hr {
+    width: 60%;
+    background-color: #493326;
+}
+
+.Contacts {
+
+    color: #493326;
+}
